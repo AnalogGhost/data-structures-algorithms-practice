@@ -18,7 +18,7 @@ function anagrams(stringA, stringB) {
     return false
   }
 
-  for (char in charMapA) {
+  for (let char in charMapA) {
     if (charMapA[char] !== charMapB[char]) {
       return false
     }
